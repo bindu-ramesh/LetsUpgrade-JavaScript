@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>convert minutes to seconds in javascript</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var minutes = prompt('Enter minutes')
+
+        function convertMinutestoSeconds(minutes) {
+            return Math.floor(minutes * 60)
+        }
+        var minutesToSeconds = convertMinutestoSeconds(minutes) // convert minutes to second javascript
+        document.write(
+            'Result of converting ' +
+            minutes +
+            ' minutes to seconds: ' +
+            minutesToSeconds
+        )
+    </script>
+</body>
+
+</html>

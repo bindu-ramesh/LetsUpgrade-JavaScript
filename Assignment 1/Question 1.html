@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Get character of a string!</title>
+</head>
+
+<body>
+    <script>
+        var string1 = 'LetsUpgrade'
+        var string = string1.toLowerCase()
+        var letter = prompt('Enter letter')
+        if (string.indexOf(letter) > -1) {
+            document.write('Character found inside the string "LetsUpgrade"')
+            document.write('<br />')
+            var pos = string.search(letter)
+            document.write('Pos is ' + pos)
+        } else {
+            document.write('Character not found')
+        }
+    </script>
+</body>
+
+</html>
