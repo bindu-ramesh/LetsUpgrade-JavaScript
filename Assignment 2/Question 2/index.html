@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpage 2</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        function copyFunc() {
+            var textInput = document.getElementById("input");
+            var textOutput = document.getElementById("output");
+            textOutput.value = input.value;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="formClass">
+        <form>
+            <label for="input">Input:</label>
+            <input type="text" id="input" name="input" /><br /><br />
+            <input onclick="copyFunc()" type="button" value="Copy Text" /><br /><br />
+            <label for="output">Output:</label>
+            <input type="text" id="output" name="output" /><br /><br />
+        </form>
+    </div>
+</body>
+
+</html>

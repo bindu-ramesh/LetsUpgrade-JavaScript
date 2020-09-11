@@ -1,0 +1,29 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url('/img1.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button1,
+.button2,
+.button3 {
+    width: 180px;
+    height: 40px;
+    background-color: #ffffff;
+    border-color: 1px solid black;
+    color: black;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    padding: 280px 0;
+}
